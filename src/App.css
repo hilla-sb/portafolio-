@@ -1,28 +1,53 @@
 .navbar-title {
+  display:flex;
+  flex-direction: row;
   margin-right: 0.5rem;
-}
-.navbar-title a:first-child {
-  margin-left: 15rem;
-}
-.navbar-title a {
-  color: white;
-  font-weight: 300;
-  font-size: 2rem;
+  margin-left: 9rem;
+  gap: 4rem;
+  
+  font-size: 1.4rem;
   text-transform: capitalize;
-  margin-right: 5rem;
+  margin-right: 3rem;
   text-shadow: black 0.15em 0.5em 0.5em;
+
 }
 
 .logo2{
-  width:16rem;
-  margin-Left:5rem;
-  margin-Right: 5rem;
+  width:15rem;
+  margin-Left:3rem;
+  margin-Right: 2rem;
 }
 
 .barra{
   background-Color: transparent !important;
   background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(47,48,58,0.742734593837535) 37%, rgba(47,48,58,1) 86%);
   box-Shadow: 0px 0px 0px 0px;
-  padding-Top: 2%;
+  padding-Top: 1%;
+  text-decoration-line: none;
+}
 
+         
+
+/* inicio */
+
+.Inicio{
+ background:linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),url(imagenes/background.png);
+ background-size:cover;
+ height: 100vh;
+ display:flex;
+ align-items:flex-start;
+}
+.Inicio .contenedor-banner{
+  padding:20px;
+  background-color:#1e2326;
+  max-width:450px;
+  margin:auto ;
+  text-align:center;
+  border-radius:40px;
+}
+
+
+.Inicio .contenedor-banner img {
+  margin-top:40px;
+  border:1px;
 }
