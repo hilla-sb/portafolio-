@@ -26,7 +26,15 @@
   box-Shadow: 0px 0px 0px 0px;
   padding-Top: 1%;
   text-decoration-line: none;
+  font-family: 'Abril Fatface', cursive ;
+  font-family: 'Fira Sans', sans-serif ;
+  font-family: 'Mochiy Pop One', sans-serif ;
+  font-family: 'Open Sans', sans-serif ;
+  font-family: 'Philosopher', sans-serif;
+  text-decoration: none !important;
 }
+
+
 
          
 
@@ -34,27 +42,34 @@
 
 .Inicio{
  background:linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),url(imagenes/background.png);
- background-size:cover;
- display:flex;
+ 
+ background-size:contain;
+ object-fit:fill;
+
+
  align-items:flex-start;
- width:100vw;
- height: 100vh;
+
+ background-repeat: no-repeat;
+
 
 
 }
 .Inicio .contenedor-banner{
   padding:20px;
   background-color:#1e2326;
-  max-width:450px;
-  margin:auto ;
+  max-width:350px;
+  max-height:500px;
+  
+  margin:10% auto 0 auto;
   text-align:center;
   border-radius:40px;
+
 }
 
 
 .Inicio .contenedor-banner img {
   margin-top:40px;
-  border:10px solid #1CB698;
+  border:10px solid #098BB8;
   display: blok;
   width:80%;
   margin:auto;
@@ -63,6 +78,80 @@
 
 .Inicio .contenedor-banner h1{
   margin-top:40px;
-  font-size:42px;
-  
+  font-size:24px;
+  font-family: 'Abril Fatface', cursive !important;
+  font-family: 'Fira Sans', sans-serif !important;
+  font-family: 'Mochiy Pop One', sans-serif !important;
+  color :white
+
+}
+.Inicio .contenedor-banner h2{
+  font-size: 15px;
+  font-family: 'Abril Fatface', cursive ;
+font-family: 'Fira Sans', sans-serif ;
+font-family: 'Mochiy Pop One', sans-serif ;
+font-family: 'Open Sans', sans-serif ;
+font-family: 'Philosopher', sans-serif;
+color: white;
+
+}
+.Inicio .contenedor-banner .redes a{
+  color:white;
+  display :inline-block;
+  text-decoration:none;
+  border:1px solid #fff;
+  border-radius:100%;
+  width:32px;
+  height: 32px;
+  line-height: 32px;
+  margin : 40px 5px;
+  font-size:20px;
+  transition :.3s;
+}
+
+
+
+
+/* sobreMi */
+.background{
+  background:linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),url(imagenes/background.png);
+ 
+ background-size:contain;
+ object-fit:fill;
+
+
+ align-items:flex-start;
+
+ background-repeat: no-repeat;
+
+
+}
+
+.texto{
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top: 10rem;
+background-color: transparent !important;
+
+}
+.texto h1{
+  color:#fff;
+  font-family: 'Abril Fatface', cursive !important;
+  font-family: 'Fira Sans', sans-serif !important;
+  font-family: 'Mochiy Pop One', sans-serif !important;
+
+
+
+}
+.texto p {
+  color:#fff;
+  font-family: 'Abril Fatface', cursive ;
+  font-family: 'Fira Sans', sans-serif ;
+  font-family: 'Mochiy Pop One', sans-serif ;
+  font-family: 'Open Sans', sans-serif ;
+  font-family: 'Philosopher', sans-serif;
+  margin-left: 5rem;
+  margin-right:5rem ;
 }

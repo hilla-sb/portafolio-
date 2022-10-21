@@ -1,7 +1,11 @@
 import React from 'react'
+import Header from '../componentes/Header'
 
 export default function portafolio() {
   return (
-    <div>portafolio</div>
+    <> 
+    <div><Header/></div>
+   
+    </>
   )
 }

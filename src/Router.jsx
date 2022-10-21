@@ -1,11 +1,13 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom' 
 import Inicio from './pages/Inicio'
-
+import SobreMi from './pages/SobreMi'
+import Skills from './pages/Skills'
+import Curriculum from './pages/Curriculum'
 import Portafolio from './pages/Portafolio'
-import Lenguajes from './pages/Lenguajes'
-import Readme from './pages/Readme'
-import Contactame from './pages/Contactame'
+import Contacto from './pages/Contacto'
+
+
 
 
 
@@ -14,10 +16,11 @@ export default function Router() {
       <div>
                <Routes> 
                <Route exact path="/" element={<Inicio />} />
+               <Route exact path="/SobreMi" element={<SobreMi />} />
+               <Route exact path="/Skills" element={<Skills />} />
+               <Route exact path="/Curriculum" element={<Curriculum />} />
                <Route exact path="/Portafolio" element={<Portafolio />} />
-               <Route exact path="/Lenguajes" element={<Lenguajes />} />
-               <Route exact path="/AcercaDeMi" element={<Readme />} />
-               <Route exact path="/Contactame" element={<Contactame />} />
+               <Route exact path="/Contacto" element={<Contacto />} />
 
 
                     </Routes>
