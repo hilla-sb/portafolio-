@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 export default function Header
  () {
     return (
-        <AppBar  className ="barra" position='fixed'>
+        <AppBar  className ="barra" position='fixed' style={{width:"100%",height:"150px"}}>
             <Toolbar>
                 <img className = "logo2" src={logo} alt="Logo2" />
                 
