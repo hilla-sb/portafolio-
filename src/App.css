@@ -155,3 +155,40 @@ background-color: transparent !important;
   margin-left: 5rem;
   margin-right:5rem ;
 }
+#phone,#codigo,#correo,#datos-per{
+  color:#fff;
+  font-family: 'Abril Fatface', cursive !important;
+  font-family: 'Fira Sans', sans-serif !important;
+  font-family: 'Mochiy Pop One', sans-serif !important;
+}
+
+           
+#button-cv {
+    background-image: linear-gradient(to right, #c35a66 0%, #faaca8  51%, #740211  100%);
+    margin: 60px 30px 0px 30px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #1e2326;
+    border-radius: 10px;
+    display: block;
+   border-color: #c35a66;
+   font-family: 'Abril Fatface', cursive !important;
+  font-family: 'Fira Sans', sans-serif !important;
+  font-family: 'Mochiy Pop One', sans-serif !important;
+  width: 190px;
+  height: 70px;
+  font-size: 0.5rem;
+  }
+
+  #button-cv:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
