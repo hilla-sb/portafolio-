@@ -20,7 +20,7 @@
   margin-Right: 2rem;
 }
 
-.barra{
+#barra{
   background-Color: transparent !important;
   background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(47,48,58,0.742734593837535) 37%, rgba(47,48,58,1) 86%);
   box-Shadow: 0px 0px 0px 0px;
@@ -38,7 +38,8 @@
 
          
 
-/* inicio */
+                        /* inicio */
+
 
 .Inicio{
  background:linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),url(imagenes/background.png);
@@ -112,9 +113,11 @@ color: white;
 
 
 
-/* sobreMi */
+                      /* sobreMi */
+
+
 .background{
-  background:linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),url(imagenes/background.png);
+  background:linear-gradient( to top,rgba(82, 86, 87, 0.8),rgb(30, 35, 38)),url(imagenes/background.png);
  
  background-size:contain;
  object-fit:fill;
@@ -191,4 +194,101 @@ background-color: transparent !important;
   }
  
 
+
+
+
+                           /* Skills */
+
+
+.princi{
+  background:linear-gradient( to top,rgba(82, 86, 87, 0.8),rgb(30, 35, 38)),url(imagenes/background.png);
+ background-size: auto;
+ background-repeat: no-repeat;
+ /* background-position: 5%; */
+}
+
+.skills{
+  width:100%;
+  margin-top: 10%;
+}
+.skills h1{
+  color: #098BB8;
+  text-align: center;
+}
+
+ .contenido-seccion {
+  width:100%;
+  margin: auto;
+  margin-top: -2%;
+  display: inline-flex;
+  text-align: center;
+ }
+ 
+.skills h1 , .contenido-seccion{
+  font-family: 'Abril Fatface', cursive !important;
+  font-family: 'Fira Sans', sans-serif !important;
+  font-family: 'Mochiy Pop One', sans-serif !important;
+ }
+
+.skill{
+  font-family: 'Abril Fatface', cursive ;
+  font-family: 'Fira Sans', sans-serif ;
+  font-family: 'Mochiy Pop One', sans-serif ;
+  font-family: 'Open Sans', sans-serif ;
+  font-family: 'Philosopher', sans-serif; 
+}
+
+.col h3{
+  font-family: 'Abril Fatface', cursive !important;
+  font-family: 'Fira Sans', sans-serif !important;
+  font-family: 'Mochiy Pop One', sans-serif !important;
+}
+
+
+.skill  > span{
+  margin-bottom: 10px;
+
+} 
+
+.col{
+  width: 50%;
+  margin: auto;
+
+}
+
+ 
+.skill  .barra-Skills  {
+  height: 5px;
+  width:60%;
+  position:relative;
+  margin-bottom:50px;
+  background-color:#131517 ;
+  position :relative;
+
+
+}
+
+
+.skill .progreso{
+  background-color: #c35a66;
+position:absolute;
+top:0;
+left:0;
+height: 5px;
+width:100%;
+}
+
+.skill .progreso span{
+position :absolute;
+height:40px;
+width:40px;
+background-color: #c35a66;
+border-radius:50px;
+line-height: 40px;
+text-align: center;
+top:-17;
+right: -15px;
+font-size: 14px;
+
+}
 

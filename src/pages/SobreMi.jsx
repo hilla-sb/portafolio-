@@ -53,11 +53,13 @@ export default function SobreMi() {
             </li>
             </a>
             </ul>
-          
+              
               <button id ="button-cv">
+              <a href="C:\Users\Alejandro\Desktop\Factoria-Fem\porfolio2\client\src\imagenes\Resume-Hillary-Segura-Blanco(1).pdf" download="curriculum">
                 <img src={cv}style={{width:"1.8rem"}}>
                 </img>
                 Descargar CV
+                </a>
               </button>
 
         

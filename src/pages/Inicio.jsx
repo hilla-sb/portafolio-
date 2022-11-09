@@ -17,8 +17,10 @@ export default function Inicio() {
         <style>
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans:wght@500&family=Mochiy+Pop+One&family=Open+Sans:wght@300&family=Philosopher:ital@1&display=swap');
 </style>
-    
+    <Box> 
+     </Box>
         <Grid item className="Inicio" style={{width:"100vw",height:"100vh",overflow:"hidden"}}>
+        
           <Box className = "contenedor-banner">
           <Box className= "contenedor-img">
           <img style={{}}className="Hillary" src={Hillary} alt=""/>

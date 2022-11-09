@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 export default function Header
  () {
     return (
-        <AppBar  className ="barra" position='fixed' style={{width:"100%",height:"150px"}}>
+        <AppBar  id ="barra" style={{width:"100%",height:"150px"}}>
             <Toolbar>
             <Link to ="/" style={{textDecoration:"none",color:"#fff"}}>
                 <img className = "logo2" src={logo} alt="Logo2" /></Link>
@@ -23,8 +23,6 @@ export default function Header
                 <Link to ="/Skills" style={{textDecoration:"none",color:"#fff"}}>
                 <p>Skills</p></Link>
 
-                <Link to ="/Curriculum" style={{textDecoration:"none",color:"#fff"}}>
-                <p>Curriculum</p></Link>
 
                 <Link to ="/Portafolio"style={{textDecoration:"none",color:"#fff"}}>
                 <p >Portafolio</p></Link>
