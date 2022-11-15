@@ -15,8 +15,8 @@ export default function Skills() {
         @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans:wght@500&family=Mochiy+Pop+One&family=Open+Sans:wght@300&family=Philosopher:ital@1&display=swap');
       </style>
 
-  <Box className="skills">  
-    <h1>Personal Skills</h1>
+  <Box className="skills" >  
+    <h1 style={{display:"flex",alignItems:"center",fontSize:"2rem"}}>Personal Skills</h1>
   </Box>
       
     <Box className="contenido-seccion">
@@ -27,7 +27,7 @@ export default function Skills() {
       <Box className="skill" style={{}}>
         <span>Html5,Html, Css & Sass</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso html" >
             <span>100%</span>
           </Box>
         </Box>
@@ -37,7 +37,7 @@ export default function Skills() {
       <Box className="skill" style={{}}>
         <span>Java Script & Type Script</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso javascript">
             <span>50%</span>
           </Box>
         </Box>
@@ -45,9 +45,9 @@ export default function Skills() {
 
 
       <Box className="skill" style={{}}>
-        <span>React & Nest JSX</span>
+        <span>React,MUI,Boostrap & Nest JSX</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso react">
             <span>80%</span>
           </Box>
         </Box>
@@ -57,7 +57,7 @@ export default function Skills() {
       <Box className="skill" style={{}}>
         <span>Node & Expres</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso expres">
             <span>70%</span>
           </Box>
         </Box>
@@ -67,7 +67,7 @@ export default function Skills() {
       <Box className="skill" style={{}}>
         <span>Postman & JSON</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso json">
             <span>90%</span>
           </Box>
         </Box>
@@ -75,13 +75,15 @@ export default function Skills() {
 
 
       <Box className="skill" style={{}}>
-        <span>Postman & JSON</span>
+        <span>Ionic & PHP Laravel</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
-            <span>90%</span>
+          <Box className="progreso ionic">
+            <span>50%</span>
           </Box>
         </Box>
       </Box>
+     
+
 
     </Box>
     <Box className="col">
@@ -90,7 +92,7 @@ export default function Skills() {
       <Box className="skill" style={{}}>
         <span>Trabajo en Equipo</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso equipo">
             <span>100%</span>
           </Box>
         </Box>
@@ -99,7 +101,7 @@ export default function Skills() {
       <Box className="skill" style={{}}>
         <span>Comunicación</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso comunicacion">
             <span>100%</span>
           </Box>
         </Box>
@@ -108,7 +110,7 @@ export default function Skills() {
       <Box className="skill" style={{}}>
         <span>Liderazgo</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso liderazgo">
             <span>90%</span>
           </Box>
         </Box>
@@ -118,7 +120,7 @@ export default function Skills() {
       <Box className="skill" style={{}}>
         <span>Metodologias Agiles</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso agiles">
             <span>90%</span>
           </Box>
         </Box>
@@ -128,7 +130,7 @@ export default function Skills() {
       <Box className="skill" style={{}}>
         <span>Creatividad</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso creatividad">
             <span>90%</span>
           </Box>
         </Box>
@@ -136,9 +138,9 @@ export default function Skills() {
 
 
       <Box className="skill" style={{}}>
-        <span>Innovación</span>
+        <span> UI,UX & Innovación</span>
         <Box className="barra-Skills">
-          <Box className="progreso">
+          <Box className="progreso innovacion">
             <span>90%</span>
           </Box>
         </Box>

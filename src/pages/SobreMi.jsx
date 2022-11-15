@@ -6,7 +6,7 @@ import phone from '../imagenes/phone.png';
 import mundo from '../imagenes/mundo.png';
 import mensaje from '../imagenes/mensaje.png';
 import cv from '../imagenes/cv.png';
-
+import Resume from '../';
 
 
 export default function SobreMi() {
@@ -23,10 +23,8 @@ export default function SobreMi() {
     <Header/>
 
     <Card className="texto" style={{}} > 
-    <h1 style={{color:"#098BB8",textShadow: "black 0.15em 0.5em 0.5em",
-  display:"flex",alignItems:"center"}}> 
-      Sobre Mi 
-    </h1>
+    <Box id ="sobreMi" style={{display:"flex",alignItems:"center",color:"#098BB8",textShadow: "black 0.15em 0.5em 0.5em"}}> 
+    <h1>Sobre Mi</h1> </Box>
     <p><strong style={{color:"#faaca8"}}>Yo soy una persona</strong> muy comunicativa, que trabaja en equipo, que escucha otras opiniones y también defiendo mi propio criterio.<br/>Estoy acostumbrada a metodologías ágiles como Scrum y tengo habilidades de organización, gran sentido de responsabilidad y en <br/>mis proyectos pasados asumía roles de liderar pero también como trabajar en equipo,ideas ,resolución de problemas, recilencia <br/>,creativa 
       </p>
       <h1 id ="datos-per" style={{color:"#098BB8",textShadow: "black 0.15em 0.5em 0.5em"}}>Datos Personales</h1> 
@@ -55,7 +53,7 @@ export default function SobreMi() {
             </ul>
               
               <button id ="button-cv">
-              <a href="C:\Users\Alejandro\Desktop\Factoria-Fem\porfolio2\client\src\imagenes\Resume-Hillary-Segura-Blanco(1).pdf" download="curriculum">
+              <a href="Hillary-Segura.png"  target ="_blank" download="curriculum">
                 <img src={cv}style={{width:"1.8rem"}}>
                 </img>
                 Descargar CV
@@ -63,7 +61,7 @@ export default function SobreMi() {
               </button>
 
         
-            <img src={direccion} alt="direccion"style={{marginTop:"20px"}} ></img>
+            <img src={direccion} alt="direccion"style={{marginTop:"20px",width:"350px",height:"auto"}} ></img>
             </Box>
       </Card>
   

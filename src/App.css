@@ -1,4 +1,14 @@
+body {
+  background:linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),url(imagenes/background.png);
+ background-repeat: no-repeat;
+ background-size:contain;
+ object-fit:fill;
+ align-items:flex-start;
 
+
+
+
+}
 .navbar-title {
   display:flex;
   flex-direction: row;
@@ -41,26 +51,26 @@
                         /* inicio */
 
 
-.Inicio{
- background:linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),url(imagenes/background.png);
+
+
+  
+  
  
- background-size:contain;
- object-fit:fill;
 
-
- align-items:flex-start;
-
- background-repeat: no-repeat;
-
-
-
+.Inicio .contenedor-banner img {
+  margin-top:40px;
+  border:10px solid #098BB8;
+  display: block;
+  width:300px;
+  margin:auto;
+  border-radius:100%;
 }
-.Inicio .contenedor-banner{
+.Inicio .contenedor-banner {
   padding:20px;
   background-color:#1e2326;
   max-width:350px;
-  max-height:500px;
-  
+  max-height:520px;
+
   margin:10% auto 0 auto;
   text-align:center;
   border-radius:40px;
@@ -68,14 +78,6 @@
 }
 
 
-.Inicio .contenedor-banner img {
-  margin-top:40px;
-  border:10px solid #098BB8;
-  display: blok;
-  width:80%;
-  margin:auto;
-  border-radius:100%;
-}
 
 .Inicio .contenedor-banner h1{
   margin-top:40px;
@@ -96,19 +98,6 @@ font-family: 'Philosopher', sans-serif;
 color: white;
 
 }
-.Inicio .contenedor-banner .redes a{
-  color:white;
-  display :inline-block;
-  text-decoration:none;
-  border:1px solid #fff;
-  border-radius:100%;
-  width:32px;
-  height: 32px;
-  line-height: 32px;
-  margin : 40px 5px;
-  font-size:20px;
-  transition :.3s;
-}
 
 
 
@@ -116,20 +105,26 @@ color: white;
                       /* sobreMi */
 
 
-.background{
-  background:linear-gradient( to top,rgba(82, 86, 87, 0.8),rgb(30, 35, 38)),url(imagenes/background.png);
+#sobreMi{
+  background-color: #e9b5b3;
+  width: 20rem;
+  height: 6rem;
  
- background-size:contain;
- object-fit:fill;
-
-
- align-items:flex-start;
-
- background-repeat: no-repeat;
-
-
+  font-size: 1rem;
+position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
-
+#sobreMi h1:after{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  right: -20px;
+  bottom: -30px;
+  border: 2px solid #D2D2C9;
+}
 .texto{
   display: flex;
   justify-content: center;
@@ -140,7 +135,7 @@ background-color: transparent !important;
 
 }
 .texto h1{
-  color:#fff;
+  color:#098BB8;
   font-family: 'Abril Fatface', cursive !important;
   font-family: 'Fira Sans', sans-serif !important;
   font-family: 'Mochiy Pop One', sans-serif !important;
@@ -149,7 +144,7 @@ background-color: transparent !important;
 
 }
 .texto p {
-  color:#fff;
+color: #fff;
   font-family: 'Abril Fatface', cursive ;
   font-family: 'Fira Sans', sans-serif ;
   font-family: 'Mochiy Pop One', sans-serif ;
@@ -157,6 +152,7 @@ background-color: transparent !important;
   font-family: 'Philosopher', sans-serif;
   margin-left: 5rem;
   margin-right:5rem ;
+  margin-top: 5%;
 }
 #phone,#codigo,#correo,#datos-per{
   color:#fff;
@@ -200,12 +196,7 @@ background-color: transparent !important;
                            /* Skills */
 
 
-.princi{
-  background:linear-gradient( to top,rgba(82, 86, 87, 0.8),rgb(30, 35, 38)),url(imagenes/background.png);
- background-size: auto;
- background-repeat: no-repeat;
- /* background-position: 5%; */
-}
+
 
 .skills{
   width:100%;
@@ -214,6 +205,24 @@ background-color: transparent !important;
 .skills h1{
   color: #098BB8;
   text-align: center;
+  background-color: #e9b5b3;
+  width: 20rem;
+  height: 6rem;
+  margin: 1rem;
+
+position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.skills h1:after{
+  content: "";
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    right: -20px;
+    bottom: -30px;
+    border: 2px solid #D2D2C9;
 }
 
  .contenido-seccion {
@@ -248,6 +257,8 @@ background-color: transparent !important;
 .skill  > span{
   margin-bottom: 10px;
 
+  color:#D2D2C9;
+
 } 
 
 .col{
@@ -264,18 +275,24 @@ background-color: transparent !important;
   margin-bottom:50px;
   background-color:#131517 ;
   position :relative;
+border-radius: 10%;
+margin-left: 10%;
+margin-top: 5px;
 
 
 }
 
 
 .skill .progreso{
+  border-radius:10%;
   background-color: #c35a66;
 position:absolute;
 top:0;
 left:0;
 height: 5px;
 width:100%;
+
+
 }
 
 .skill .progreso span{
@@ -289,6 +306,226 @@ text-align: center;
 top:-17;
 right: -15px;
 font-size: 14px;
+margin: -10px;
+
 
 }
+
+                      /* barras */
+                      /* Barra tecnica */
+
+.skill .html{
+  width: 0%;
+  animation: 2s html forwards;
+}
+@keyframes html{
+  0% {width: 0%;}
+ 100% {width: 100%;}
+}
+
+.skill .javascript{
+  width: 0%;
+  animation: 2s javascript forwards;
+}
+@keyframes javascript{
+  0% {width: 0%;}
+ 100% {width: 50%;}
+}
+
+.skill .react{
+  width: 0%;
+  animation: 2s react forwards;
+}
+@keyframes react{
+  0% {width: 0%;}
+ 100% {width: 80%;}
+}
+
+.skill .expres{
+  width: 0%;
+  animation: 2s expres forwards;
+}
+@keyframes expres{
+  0% {width: 0%;}
+ 100% {width: 70%;}
+}
+
+.skill .json{
+  width: 0%;
+  animation: 2s json forwards;
+}
+@keyframes json{
+  0% {width: 0%;}
+ 100% {width: 90%;}
+}
+
+.skill .ionic{
+  width: 0%;
+  animation: 2s ionic forwards;
+}
+@keyframes ionic{
+  0% {width: 0%;}
+ 100% {width: 50%;}
+}
+
+                      /* barra professional */
+
+.skill .equipo{
+  width: 0%;
+  animation: 2s  equipo forwards;
+}
+@keyframes  equipo{
+  0% {width: 0%;}
+ 100% {width: 100%;}
+}
+
+.skill .comunicacion{
+  width: 0%;
+  animation: 2s  comunicacion forwards;
+}
+@keyframes  comunicacion{ 
+  0% {width: 0%;}
+ 100% {width: 100%;}
+}
+
+.skill .liderazgo{
+  width: 0%;
+  animation: 2s  liderazgo forwards;
+}
+@keyframes  liderazgo{ 
+  0% {width: 0%;}
+ 100% {width: 90%;}
+}
+
+.skill .agiles{
+  width: 0%;
+  animation: 2s  agiles forwards;
+}
+@keyframes  agiles{ 
+  0% {width: 0%;}
+ 100% {width: 90%;}
+}
+.skill .creatividad{
+  width: 0%;
+  animation: 2s  creatividad forwards;
+}
+@keyframes  creatividad{ 
+  0% {width: 0%;}
+ 100% {width: 90%;}
+}
+
+.skill .innovacion{
+  width: 0%;
+  animation: 2s   innovacion forwards;
+}
+@keyframes  innovacion{ 
+  0% {width: 0%;}
+ 100% {width: 90%;}
+}
+                                             /* Porfolio */
+.mision{
+  font-family: 'Abril Fatface', cursive !important;
+  font-family: 'Fira Sans', sans-serif !important;
+  font-family: 'Mochiy Pop One', sans-serif !important;
+}
+ #proyectos {
+  padding: 4rem;
+  margin-top: 5%;
+  font-size: 2rem;
+  
+}
+.proyectos-box {
+ 
+  background-color: #e9b5b3;
+  width: 20rem;
+  height: 6rem;
+  margin: 1rem;
+
+position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.proyectos-box:after {
+  content: "";
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    right: -40px;
+    bottom: -30px;
+    border: 2px solid #D2D2C9;
+  }
+
+ 
+.imagenes-proyectos a{
+  font-family: 'Abril Fatface', cursive ;
+  font-family: 'Fira Sans', sans-serif ;
+  font-family: 'Mochiy Pop One', sans-serif ;
+  font-family: 'Open Sans', sans-serif ;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.imagenes-proyectos ul{
+  position:absolute;
+  margin:0;
+  padding:0;
+}
+
+.imagenes-proyectos li{
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  border:solid 12px #fff;
+  background:#fff;
+  box-shadow:0 0 15px 0px #555;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  top:50px;
+}
+
+
+.imagenes-proyectos li:hover{
+  top:0px;
+  opacity:0.5;
+}
+
+.imagenes-proyectos li:nth-child(1){
+    transform:rotate(10deg);
+}
+
+.imagenes-proyectos li:nth-child(2){
+    transform:rotate(0deg);
+}
+
+.imagenes-proyectos li:nth-child(3){
+    transform:rotate(-10deg);
+}
+
+.imagenes-proyectos li:nth-child(4){
+    transform:rotate(20deg);
+}
+
+.imagenes-proyectos p{
+  margin:0 0 0 0;
+}
+
+.light{
+  border-radius:50%;
+  position:absolute;
+  left:0;
+  right:0;
+  width:700px;
+  height:700px;
+  filter:blur(100px);
+  opacity:0.3;
+  pointer-events:none;
+}
+
+
+
+
+
 

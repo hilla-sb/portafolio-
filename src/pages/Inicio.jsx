@@ -1,10 +1,12 @@
 import React from 'react'
 import Header from '../componentes/Header'
 import Hillary from '../imagenes/Hillary.png'
-import {Grid,Box} from "@mui/material";
+import {Grid,Box,Button} from "@mui/material";
 import {GoMarkGithub} from "react-icons/go";
-import { FaLinkedinIn,FaCommentDots} from "react-icons/fa";
+import { FaCommentDots} from "react-icons/fa";
 import {IoLogoLinkedin} from "react-icons/io";
+import Carousel from 'react-bootstrap/Carousel';
+import gala from "../imagenes/gala.png"
 
 export default function Inicio() {
   return (
@@ -19,7 +21,10 @@ export default function Inicio() {
 </style>
     <Box> 
      </Box>
+    
+        
         <Grid item className="Inicio" style={{width:"100vw",height:"100vh",overflow:"hidden"}}>
+                
         
           <Box className = "contenedor-banner">
           <Box className= "contenedor-img">
@@ -27,16 +32,21 @@ export default function Inicio() {
           </Box>
           <h1>Hillary Segura Blanco</h1>
           <h2>Desarolladora Web - Full Stack</h2>
-          <GoMarkGithub style={{color:"white",display:"inlineBlock",
+         
+          <a href="https://github.com/hilla-sb/" target="_blank"> 
+          <GoMarkGithub  style={{color:"#ffff",display:"inlineBlock",
   textdecoration:"none",
-  border:"1.5px solid #098BB8",
+  border:"2px solid #098BB8",
   borderRadius:"100%",
   width:"42px",
   height: "42px",
   lineHeight: "32px",
   margin : "40px 6px",
   fontSize:"20px",
-  transition :".3s"}}/>
+  transition :".3s!important",
+ }}/>
+  </a>
+  <a href="https://www.linkedin.com/in/hillary-segura-blanco-667544245/" target="_blank" class="linkedIn"> 
           <IoLogoLinkedin style={{color: "white",display:"inlineBlock",
   textdecoration:"none",
   border:"1.5px solid #098BB8",
@@ -47,6 +57,8 @@ export default function Inicio() {
   margin : "40px 6px",
   fontSize:"20px",
   transition :".3s"}}/>
+  </a>
+  <a href="https://wa.me/34658596730?text=Contactame" target="_blank" class="whatsapp"> 
           <FaCommentDots style={{color:"white",display:"inlineBlock",
   textdecoration:"none",
   border:"1.5px solid #098BB8",
@@ -57,12 +69,14 @@ export default function Inicio() {
   margin : "40px 6px",
   fontSize:"20px",
   transition :".3s"}}/>
-          </Box>
-          <Box class="nav-resposive"> 
+  </a>
+  </Box>
+         
 
-          </Box>
-
+         
+        
 </Grid>
+
     </div>
 
   )
