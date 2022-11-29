@@ -2,8 +2,8 @@ body {
   background:linear-gradient( to top,rgba(30,35,38,.8),rgba(30,35,38,1)),url(imagenes/background.png);
  background-repeat: no-repeat;
  background-size:contain;
- object-fit:fill;
- align-items:flex-start;
+
+
 
 
 
@@ -59,7 +59,7 @@ body {
 
 .Inicio .contenedor-banner img {
   margin-top:40px;
-  border:10px solid #098BB8;
+  border:10px solid #c35a66;
   display: block;
   width:300px;
   margin:auto;
@@ -106,7 +106,7 @@ color: white;
 
 
 #sobreMi{
-  background-color: #e9b5b3;
+  background-color:#c35a66;
   width: 20rem;
   height: 6rem;
  
@@ -135,7 +135,7 @@ background-color: transparent !important;
 
 }
 .texto h1{
-  color:#098BB8;
+  color:#D2D2C9;
   font-family: 'Abril Fatface', cursive !important;
   font-family: 'Fira Sans', sans-serif !important;
   font-family: 'Mochiy Pop One', sans-serif !important;
@@ -203,13 +203,12 @@ color: #fff;
   margin-top: 10%;
 }
 .skills h1{
-  color: #098BB8;
+  color: #D2D2C9;
   text-align: center;
-  background-color: #e9b5b3;
+  background-color: #c35a66;
   width: 20rem;
   height: 6rem;
-  margin: 1rem;
-
+margin-top: -5%;
 position: relative;
   display: flex;
   justify-content: center;
@@ -230,7 +229,8 @@ position: relative;
   margin: auto;
   margin-top: -2%;
   display: inline-flex;
-  text-align: center;
+  text-align:center;
+  margin-bottom: 50px;
  }
  
 .skills h1 , .contenido-seccion{
@@ -255,7 +255,7 @@ position: relative;
 
 
 .skill  > span{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   color:#D2D2C9;
 
@@ -272,12 +272,12 @@ position: relative;
   height: 5px;
   width:60%;
   position:relative;
-  margin-bottom:50px;
+  margin-bottom:45px;
   background-color:#131517 ;
-  position :relative;
 border-radius: 10%;
 margin-left: 10%;
-margin-top: 5px;
+margin-top: 8px;
+
 
 
 }
@@ -303,13 +303,14 @@ background-color: #c35a66;
 border-radius:50px;
 line-height: 40px;
 text-align: center;
-top:-17;
+top:-19;
 right: -15px;
 font-size: 14px;
 margin: -10px;
 
 
 }
+
 
                       /* barras */
                       /* Barra tecnica */
@@ -436,7 +437,7 @@ margin: -10px;
 }
 .proyectos-box {
  
-  background-color: #e9b5b3;
+  background-color:#c35a66 ;
   width: 20rem;
   height: 6rem;
   margin: 1rem;
@@ -523,9 +524,82 @@ position: relative;
   opacity:0.3;
   pointer-events:none;
 }
+ 
+
+                                                            /* contacto */
 
 
+.grid-co{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border:1px solid red;
+
+}
+
+ .form{width:440px;height:490px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(50vw - 40px);box-sizing:border-box;
+  position:relative;
+
+font-family: 'Abril Fatface', cursive !important;
+font-family: 'Fira Sans', sans-serif !important;
+font-family: 'Mochiy Pop One', sans-serif !important;
 
 
+}
+
+
+.contactof h2{margin:10px 0;padding-bottom:10px;width:180px;color:#c35a66;border-bottom:3px solid #78788c;;
+  font-family: 'Fira Sans', sans-serif !important;
+  font-family: 'Mochiy Pop One', sans-serif !important;
+}
+
+.name input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;transition:all .3s;border-bottom:2px solid #faaca8 ;
+  }
+
+.email input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;
+  transition:all .3s;border-bottom:2px solid #faaca8 }
+.message textarea{width:100%;height:120px;
+   padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;
+   transition:all .3s;border-bottom:2px solid #faaca8;
+    }
+
+.name  input:focus{border-bottom:2px solid #78788c}
+.email input:focus{border-bottom:2px solid #78788c}
+.message2 input:focus{border-bottom:2px solid #78788c}
+
+
+.form  p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
+
+.send2 {background-image: linear-gradient(to right, #c35a66 0%, #faaca8  51%, #740211  100%);float:right;padding:8px 12px;margin:8px 0 0;
+  border:2px solid #78788c;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #1e2326;
+    border-radius: 10px;
+    display: block;
+   border-color: #c35a66;
+
+}
+
+.send2:hover{
+  background-position: right center;
+  color: #fff;
+    text-decoration: none;
+}
+.contacto-icon{
+  position:absolute;bottom:-63px;right:-69px;background:#faaca8 ;color:#fff;width:407px;padding:16px 4px 16px 0;border-radius:6px;font-size:13px;box-shadow:10px 10px 40px -14px #000
+}
+.contacto-icon span{
+  margin:10% 5px 0 15px
+}
+
+.spline{
+  margin-top:10%;
+  width: 50% !important;
+  height: 50% !important;
+}
 
 

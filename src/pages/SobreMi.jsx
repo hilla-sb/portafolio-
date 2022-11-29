@@ -6,7 +6,7 @@ import phone from '../imagenes/phone.png';
 import mundo from '../imagenes/mundo.png';
 import mensaje from '../imagenes/mensaje.png';
 import cv from '../imagenes/cv.png';
-import Resume from '../';
+import resume from '../imagenes/Resume-Hillary.pdf';
 
 
 export default function SobreMi() {
@@ -27,7 +27,7 @@ export default function SobreMi() {
     <h1>Sobre Mi</h1> </Box>
     <p><strong style={{color:"#faaca8"}}>Yo soy una persona</strong> muy comunicativa, que trabaja en equipo, que escucha otras opiniones y también defiendo mi propio criterio.<br/>Estoy acostumbrada a metodologías ágiles como Scrum y tengo habilidades de organización, gran sentido de responsabilidad y en <br/>mis proyectos pasados asumía roles de liderar pero también como trabajar en equipo,ideas ,resolución de problemas, recilencia <br/>,creativa 
       </p>
-      <h1 id ="datos-per" style={{color:"#098BB8",textShadow: "black 0.15em 0.5em 0.5em"}}>Datos Personales</h1> 
+      <h1 id ="datos-per" style={{color:"#D2D2C9",textShadow: "black 0.15em 0.5em 0.5em"}}>Datos Personales</h1> 
           <Box id="box-per" style={{display:"flex",marginTop:"25px"}}>
           <ul style={{textDecoration:"none",color:"white",listStyle: "none",marginTop:"30px"}}>
           
@@ -52,8 +52,8 @@ export default function SobreMi() {
             </a>
             </ul>
               
-              <button id ="button-cv">
-              <a href="Hillary-Segura.png"  target ="_blank" download="curriculum">
+              <button id ="button-cv" style={{marginleft:"20px"}}>
+              <a href="../imagenes/Resume-Hillary.pdf" download>
                 <img src={cv}style={{width:"1.8rem"}}>
                 </img>
                 Descargar CV
@@ -61,7 +61,7 @@ export default function SobreMi() {
               </button>
 
         
-            <img src={direccion} alt="direccion"style={{marginTop:"20px",width:"350px",height:"auto"}} ></img>
+            <img src={direccion} alt="direccion"style={{marginLeft:"30px",width:"350px",height:"auto"}} ></img>
             </Box>
       </Card>
   

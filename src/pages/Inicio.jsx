@@ -1,17 +1,17 @@
 import React from 'react'
 import Header from '../componentes/Header'
 import Hillary from '../imagenes/Hillary.png'
-import {Grid,Box,Button} from "@mui/material";
+import {Grid,Box} from "@mui/material";
 import {GoMarkGithub} from "react-icons/go";
 import { FaCommentDots} from "react-icons/fa";
 import {IoLogoLinkedin} from "react-icons/io";
-import Carousel from 'react-bootstrap/Carousel';
-import gala from "../imagenes/gala.png"
+
+
 
 export default function Inicio() {
   return (
     <div>
-        
+       
         <Header/>
         <style>
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans:wght@500&family=Mochiy+Pop+One&family=Open+Sans:wght@300&display=swap');
@@ -36,7 +36,7 @@ export default function Inicio() {
           <a href="https://github.com/hilla-sb/" target="_blank"> 
           <GoMarkGithub  style={{color:"#ffff",display:"inlineBlock",
   textdecoration:"none",
-  border:"2px solid #098BB8",
+  border:"3px solid #faaca8  ",
   borderRadius:"100%",
   width:"42px",
   height: "42px",
@@ -49,7 +49,7 @@ export default function Inicio() {
   <a href="https://www.linkedin.com/in/hillary-segura-blanco-667544245/" target="_blank" class="linkedIn"> 
           <IoLogoLinkedin style={{color: "white",display:"inlineBlock",
   textdecoration:"none",
-  border:"1.5px solid #098BB8",
+  border:"3px solid #faaca8 ",
   borderRadius:"100%",
   width:"42px",
   height: "42px",
@@ -61,7 +61,7 @@ export default function Inicio() {
   <a href="https://wa.me/34658596730?text=Contactame" target="_blank" class="whatsapp"> 
           <FaCommentDots style={{color:"white",display:"inlineBlock",
   textdecoration:"none",
-  border:"1.5px solid #098BB8",
+  border:"3px solid #faaca8 ",
   borderRadius:"100%",
   width:"42px",
   height: "42px",

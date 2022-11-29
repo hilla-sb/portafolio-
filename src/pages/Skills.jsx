@@ -16,16 +16,17 @@ export default function Skills() {
       </style>
 
   <Box className="skills" >  
-    <h1 style={{display:"flex",alignItems:"center",fontSize:"2rem"}}>Personal Skills</h1>
+    <h1 style={{display:"flex",alignItems:"center",fontSize:"2rem",marginTop:"-2%",textShadow: "black 0.15em 0.5em 0.5em"}}>Personal Skills</h1>
   </Box>
       
     <Box className="contenido-seccion">
 
 
     <Box className="col">
-      <h3 style={{ color: "#D9D9D9" }}> Technical Ability</h3>
-      <Box className="skill" style={{}}>
-        <span>Html5,Html, Css & Sass</span>
+      <h3 style={{ color: "#D9D9D9"}}> Technical Ability</h3>
+      <Box className="skill" style={{marginTop:"20px",textAlign:"center"}}>
+        
+        <span className="skill-title">Html5,Html, Css & Sass</span>
         <Box className="barra-Skills">
           <Box className="progreso html" >
             <span>100%</span>
