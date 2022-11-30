@@ -1,5 +1,5 @@
-// import Swal from 'sweetalert2';
-// import Swal from 'sweetalert2/dist/sweetalert2.js'
+ import Swal from 'sweetalert2';
+ import Swal from 'sweetalert2/dist/sweetalert2.js'
 const Swal1 = require('sweetalert2')
 
 Swal1.fire({

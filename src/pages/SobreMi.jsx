@@ -6,7 +6,7 @@ import phone from '../imagenes/phone.png';
 import mundo from '../imagenes/mundo.png';
 import mensaje from '../imagenes/mensaje.png';
 import cv from '../imagenes/cv.png';
-import resume from '../imagenes/Resume-Hillary.pdf';
+
 
 
 export default function SobreMi() {
@@ -53,7 +53,7 @@ export default function SobreMi() {
             </ul>
               
               <button id ="button-cv" style={{marginleft:"20px"}}>
-              <a href="../imagenes/Resume-Hillary.pdf" download>
+              <a href="https://drive.google.com/file/d/1UDU2xpm7gq6dLUDh8Dmepuc9OR79Csrb/view?usp=sharing" download target ="_blank">
                 <img src={cv}style={{width:"1.8rem"}}>
                 </img>
                 Descargar CV
