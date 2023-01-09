@@ -32,16 +32,18 @@ export default function Contacto() {
  <Grid className="grid-co" style={{display:"flex",justifyContent:"space-between"}}>
  
  <Spline scene={icon} className ="spline"/>
- <form className="form" onSubmit= {sendEmail} >
+ <form className="form" >
 
-  <h2 className="contactof" style={{color:"#c35a66"}}>CONTACT Me</h2>
-  <p className="name" type="Name:"><input placeholder="Write your name here.." name="name"  ></input></p>
-  <p className="email" type="Email:"><input placeholder="Let us know how to contact you back.." name="email" ></input></p>
-  <p type="Message:" className="message"><textarea placeholder="What would you like to tell us.." className="message2" name="message"></textarea></p>
-  <button className="send2">Send Message</button>
+  <h2 className="contactof" style={{color:"#c35a66"}}>Contactame.</h2>
+  <p className="name" type="Name:"><input placeholder="Escriba su nombre aqui.." name="name"  ></input></p>
+  <p className="email" type="Email:"><input placeholder="Escribe su correo para contartarme de vuelta.." name="email" ></input></p>
+  <p type="Message:" className="message"><textarea placeholder="Escriba aqui su Mensaje.." className="message2" name="message"></textarea></p>
+  <button className="send2"  onSubmit= {sendEmail}>Send Message</button>
 
 <Box className="contacto-icon"> 
-  <span ><img src ={phone} alt ="phone" style={{width:"1.8rem"}}></img></span>+34 658596730
+  <span ><img src ={phone} alt ="phone" style={{width:"1.8rem"}}></img>
+  
+  </span>+34 658596730
     <span ><img src ={mensaje} alt ="mensaje" style={{width:"1.8rem"}}></img></span> hillsegu23@gmail.com
     </Box>
 </form>

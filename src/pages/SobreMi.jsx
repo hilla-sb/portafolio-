@@ -42,14 +42,15 @@ export default function SobreMi() {
                 </strong>
                hillsegu23@gmail.com
             </li>
-            <a href = "https://wa.me/34658596730?text=Contactame" target ="_blank"style ={{textDecoration:"none",color:"white"}}>
+           
             <li>
               <img src={phone} alt="phone" style={{width:"1.8rem"}}></img>
+              <a href = "https://wa.me/34658596730?text=Contactame" target ="_blank"style ={{textDecoration:"none",color:"white"}}>
               <strong id ="Phone"style={{textDecoration:"none",color:"white",listStyleType:"spaceCounter",width:"5rem"}}>Telefono: </strong>
-
+              </a>
               +34 658596730
             </li>
-            </a>
+         
             </ul>
               
               <button id ="button-cv" style={{marginleft:"20px"}}>

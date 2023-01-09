@@ -16,10 +16,11 @@ export default function Portafolio() {
 <Grid item className="background" style={{width:"100vw",height:"100vh",overflow:"hidden"}}>
 <Header/>
 
- <Box id="proyectos">
-      <Box className="proyectos-flow">
+ <Box id="proyectos"  >
+      <Box className="proyectos-flow" >
         <Box className="proyectos-box">
-          <h2 style={{ color:"#D2D2C9",display:"flex",alignItems:"center",fontSize:"2rem",textShadow: "black 0.15em 0.5em 0.5em"}} className="mision">Proyectos</h2> 
+          <h2 style={{ color:"#D2D2C9",display:"flex",alignItems:"center",fontSize:"2rem",textShadow: "black 0.15em 0.5em 0.5em"
+         }} className="mision">Proyectos</h2> 
         </Box>  
         <Box classname="imagenes-box">
           <ul className="imagenes-proyectos">
