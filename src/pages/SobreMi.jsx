@@ -54,7 +54,7 @@ export default function SobreMi() {
             </ul>
               
               <button id ="button-cv" style={{marginleft:"20px"}}>
-              <a href="https://drive.google.com/file/d/1UDU2xpm7gq6dLUDh8Dmepuc9OR79Csrb/view?usp=sharing" download target ="_blank">
+              <a href="https://drive.google.com/file/d/17UjJBs1wcxD9pajaWPK4A6fEZOLbA_HF/view?usp=sharing" download target ="_blank">
                 <img src={cv}style={{width:"1.8rem"}}>
                 </img>
                 Descargar CV
